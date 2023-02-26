@@ -331,8 +331,9 @@ public class SeleniumTestSupport {
                 chromePrefs.put("download.default_directory", downloadFilePath);
 //                chromePrefs.put("safebrowsing.enabled", "false");//Bypass warning message, keep file anyway (for .exe, .jar, etc.)
                 ChromeOptions options = new ChromeOptions();
-              //  options.addArguments("--headless");
-               // options.addArguments("--window-size=1920,1440");
+				options.setBinary("C:\\Users\\nqthai\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+				options.addArguments("--headless");
+               options.addArguments("--window-size=1920,1440");
                 options.setExperimentalOption("prefs", chromePrefs);
                 WebDriver d = new ChromeDriver(options); // could not run successfully
 //                 d.manage().window().setSize(new Dimension(1920, 1440));
