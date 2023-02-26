@@ -376,7 +376,7 @@ public class DATMainPage extends SimpliciaPage {
 	 */
 	public boolean isDatPresentOnDashboard(String sNumeroSS) {
 		AtomicBoolean found = new AtomicBoolean(false);
-		retrySilently(() -> {
+//		retrySilently(() -> {
 			clickHiddenElementUsingJavaScript("//span[text()='remove']//ancestor::button[@type='button']");
 			clickHiddenElementUsingJavaScript("//span[text()='remove']//ancestor::button[@type='button']");
 			clickHiddenElementUsingJavaScript("//span[text()='remove']//ancestor::button[@type='button']");
@@ -401,7 +401,7 @@ public class DATMainPage extends SimpliciaPage {
 				throw new MSeleniumException(sNumeroSS + " not found, let's try again.", browser);
 			}
 			LOGGER.info("Dat found: " + sNumeroSS);
-		});
+//		});
 		return found.get();
 
 	}
@@ -572,8 +572,8 @@ public class DATMainPage extends SimpliciaPage {
 
 		boolean bDownload = false;
 		performHorizontalScroll();
-//		clickDatActionButton();
-		retry(() -> clickDatActionButton());
+		clickDatActionButton();
+//		retry(() -> clickDatActionButton());
 		sleepSilently(5000);
 		clickHiddenElementUsingJavaScript("//span[text()='save_alt']//ancestor::button[@type='button']");
 //		downloadZIPButton.click();
