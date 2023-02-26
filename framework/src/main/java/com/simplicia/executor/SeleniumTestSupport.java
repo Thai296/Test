@@ -332,6 +332,7 @@ public class SeleniumTestSupport {
 //                chromePrefs.put("safebrowsing.enabled", "false");//Bypass warning message, keep file anyway (for .exe, .jar, etc.)
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless=new");
+				options.setBinary(chromeDriver);
                 options.addArguments("--window-size=1920,1440");
                 options.setExperimentalOption("prefs", chromePrefs);
                 WebDriver d = new ChromeDriver(options); // could not run successfully
