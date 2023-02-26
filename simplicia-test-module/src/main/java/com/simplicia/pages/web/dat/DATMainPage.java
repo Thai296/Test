@@ -423,7 +423,8 @@ public class DATMainPage extends SimpliciaPage {
 		
 //		retry(() -> clickDatActionButton());
 		clickDatActionButton();
-		deleteDATButton.click();
+		clickHiddenElementUsingJavaScript(BTN_ACTION_DELETE_ACTION);
+//		deleteDATButton.click();
 		// Check if confirm message is displayed
 		if (isTextPresent(datDeleteConfirm.getText())) {
 
