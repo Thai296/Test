@@ -377,13 +377,16 @@ public class DATMainPage extends SimpliciaPage {
 	public boolean isDatPresentOnDashboard(String sNumeroSS) {
 		AtomicBoolean found = new AtomicBoolean(false);
 		retrySilently(() -> {
+			clickHiddenElementUsingJavaScript("//span[text()='remove']//ancestor::button[@type='button']");
+			clickHiddenElementUsingJavaScript("//span[text()='remove']//ancestor::button[@type='button']");
+			clickHiddenElementUsingJavaScript("//span[text()='remove']//ancestor::button[@type='button']");
 			LOGGER.info("Checking if DAT is found on table: " + sNumeroSS);
 			// Enter registration number / Numero SS in the search input field
 //			new CustomWebDriverWait(browser, 50).until(ExpectedConditions.presenceOfElementLocated(By.xpath(TXT_FIELD_SEARCH_DAT)));
 //			searchDATTF.shouldBeDisplayed();
 //			searchDATTF.typeKeys(selectAllAndDeleteKeys());
 			sleepSilently(10000);
-			LOGGER.info("Checking before sleep");
+			LOGGER.info("Checking before sleep");;
 			browserFindElement(byXpath(TXT_FIELD_SEARCH_DAT)).sendKeys(sNumeroSS);
 //			searchDATTF.typeKeys(sNumeroSS);
 			// wait for record to filter and display
