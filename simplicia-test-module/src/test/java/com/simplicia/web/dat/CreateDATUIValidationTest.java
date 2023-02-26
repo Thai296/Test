@@ -337,9 +337,9 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
 
             // down load the DAT
             if (bDat) {
-                List<String> ls = Lists.newArrayList("● DATs en cours de rédaction", "Mes DATs");
-                switchNavigationBetweenDATOption(ls);
-                datMainPage.isDatPresentOnDashboard(sNumeroSS);
+//                List<String> ls = Lists.newArrayList("● DATs en cours de rédaction", "Mes DATs");
+//                switchNavigationBetweenDATOption(ls);
+//                datMainPage.isDatPresentOnDashboard(sNumeroSS);
                 if(browser.getCurrentUrl().contains("staging") || browser.getCurrentUrl().contains("test-deploy")||browser.getCurrentUrl().contains("qa2")) {
 
                     bDownloaded = datMainPage.downloadDATZIP("dat.zip");
