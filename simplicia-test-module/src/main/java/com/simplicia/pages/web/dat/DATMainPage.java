@@ -384,7 +384,8 @@ public class DATMainPage extends SimpliciaPage {
 //			searchDATTF.typeKeys(selectAllAndDeleteKeys());
 			sleepSilently(10000);
 			LOGGER.info("Checking before sleep");
-			searchDATTF.typeKeys(sNumeroSS);
+			browserFindElement(byXpath(TXT_FIELD_SEARCH_DAT)).sendKeys(sNumeroSS);
+//			searchDATTF.typeKeys(sNumeroSS);
 			// wait for record to filter and display
 			String xpathNew = ".//th//span//mark[contains(text(),'" + sNumeroSS + "')]";
 			sleepSilently(10000);
