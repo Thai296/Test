@@ -379,16 +379,20 @@ public class DATMainPage extends SimpliciaPage {
 		retrySilently(() -> {
 			LOGGER.info("Checking if DAT is found on table: " + sNumeroSS);
 			// Enter registration number / Numero SS in the search input field
-			new CustomWebDriverWait(browser, 50).until(ExpectedConditions.presenceOfElementLocated(By.xpath(TXT_FIELD_SEARCH_DAT)));
-			searchDATTF.shouldBeDisplayed();
-			searchDATTF.typeKeys(selectAllAndDeleteKeys());
+//			new CustomWebDriverWait(browser, 50).until(ExpectedConditions.presenceOfElementLocated(By.xpath(TXT_FIELD_SEARCH_DAT)));
+//			searchDATTF.shouldBeDisplayed();
+//			searchDATTF.typeKeys(selectAllAndDeleteKeys());
+			sleepSilently(10000);
+			LOGGER.info("Checking before sleep");
 			searchDATTF.typeKeys(sNumeroSS);
 			// wait for record to filter and display
 			String xpathNew = ".//th//span//mark[contains(text(),'" + sNumeroSS + "')]";
-			new CustomWebDriverWait(browser, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpathNew)));
+			sleepSilently(10000);
+			LOGGER.info("Checking after sleep");
+//			new CustomWebDriverWait(browser, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpathNew)));
 			ControlledElement sNumeroSSEle = new ControlledElement(browser, By.xpath(xpathNew));
 			found.set(sNumeroSSEle.isFound());
-
+			LOGGER.info("Wait for data is found");
 			if (!found.get()) {
 				throw new MSeleniumException(sNumeroSS + " not found, let's try again.", browser);
 			}
