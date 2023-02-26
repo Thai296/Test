@@ -290,7 +290,7 @@ public class SeleniumTestSupport {
                     boolean f = new File(chromeDriver).setExecutable(true);
                 }
                 LOGGER.info("<<<<<<<<<<<<<<<<<<"+ chromeDriver);
-                downloadFilePath = System.getProperty("user.dir")+ "\\target\\\test-classes\\";
+                downloadFilePath = System.getProperty("user.dir")+ "\\target\\test-classes\\";
                 LOGGER.info("<<<<<<<<<<<<<<<<<< download path: "+ downloadFilePath);
                 System.setProperty("webdriver.chrome.driver", chromeDriver);
                 System.setProperty("webdriver.chrome.whitelistedIps", "");
