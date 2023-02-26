@@ -575,7 +575,7 @@ public class DATMainPage extends SimpliciaPage {
 //		clickDatActionButton();
 		retry(() -> clickDatActionButton());
 		sleepSilently(5000);
-		clickHiddenElementUsingJavaScript(BTN_ACTION_ZIP_DOWNLOAD);
+		clickHiddenElementUsingJavaScript("//span[text()='save_alt']//ancestor::button[@type='button']");
 //		downloadZIPButton.click();
 
 		// wait for file to download
