@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CreateDATUIValidationTest]">
+  <test name="4(failed)">
+    <classes>
+      <class name="com.simplicia.web.dat.CreateDATUIValidationTest">
+        <methods>
+          <include name="pageTearDown"/>
+          <include name="pageSetUp"/>
+          <include name="stopSeleniumClient"/>
+          <include name="finishExecution"/>
+          <include name="captureExecution"/>
+          <include name="launchBrowserAndOpenSimpliciaUrl"/>
+          <include name="logOutFromSimplicia"/>
+          <include name="dat_Test_03_Export"/>
+          <include name="startSeleniumClient"/>
+          <include name="computeRemainingTime"/>
+        </methods>
+      </class> <!-- com.simplicia.web.dat.CreateDATUIValidationTest -->
+    </classes>
+  </test> <!-- 4(failed) -->
+</suite> <!-- Failed suite [CreateDATUIValidationTest] -->

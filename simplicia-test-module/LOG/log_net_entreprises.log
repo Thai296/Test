@@ -1,0 +1,729 @@
+26-02-2023 13:52:08 [INFO ] (TraceReporter:90) - 1 - 2023-02-26T13:52:08.431+07:00 - INFO: Number of click actions performed: 9
+26-02-2023 13:52:08 [INFO ] (TraceReporter:91) - 1 - 2023-02-26T13:52:08.432+07:00 - INFO: Number of typing actions performed: 6
+26-02-2023 13:52:08 [INFO ] (TraceReporter:92) - 1 - 2023-02-26T13:52:08.432+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 13:52:08 [INFO ] (TraceReporter:94) - 1 - 2023-02-26T13:52:08.433+07:00 - INFO: Duration of this run: 3 mins
+26-02-2023 13:52:08 [INFO ] (TraceReporter:96) - 1 - 2023-02-26T13:52:08.433+07:00 - INFO: Estimated virtual manual execution: 1 mins
+26-02-2023 13:52:08 [INFO ] (TraceReporter:97) - 1 - 2023-02-26T13:52:08.433+07:00 - INFO: Estimated real-time execution: 4 mins
+26-02-2023 13:52:08 [INFO ] (TraceReporter:98) - 1 - 2023-02-26T13:52:08.434+07:00 - INFO: Effort saved by this run: 0 mins
+26-02-2023 13:52:08 [INFO ] (TraceReporter:45) - 1 - 2023-02-26T13:52:08.434+07:00 - INFO: Number of click actions performed: 9
+26-02-2023 13:52:08 [INFO ] (TraceReporter:46) - 1 - 2023-02-26T13:52:08.435+07:00 - INFO: Number of typing actions performed: 6
+26-02-2023 13:52:08 [INFO ] (TraceReporter:47) - 1 - 2023-02-26T13:52:08.435+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 13:52:08 [INFO ] (TraceReporter:50) - 1 - 2023-02-26T13:52:08.435+07:00 - INFO: Estimated virtual manual execution: 1 mins
+26-02-2023 13:52:08 [INFO ] (TraceReporter:51) - 1 - 2023-02-26T13:52:08.435+07:00 - INFO: Estimated real-time execution: 2 mins
+26-02-2023 13:52:08 [INFO ] (TraceReporter:53) - 1 - 2023-02-26T13:52:08.435+07:00 - INFO: Tests executed sorted by duration:
+26-02-2023 13:52:08 [INFO ] (TraceReporter:66) - 1 - 2023-02-26T13:52:08.457+07:00 - INFO:     CreateDATUIValidationTest -> 219731 ms [clicks: 9, typing: 6, selections: 0, idle: 0 ms)
+26-02-2023 13:52:08 [INFO ] (TraceReporter:71) - 1 - 2023-02-26T13:52:08.457+07:00 - INFO: maximum retrieval time: 1 secs
+26-02-2023 13:52:08 [INFO ] (TraceReporter:72) - 1 - 2023-02-26T13:52:08.458+07:00 - INFO: number of retried actions: 0
+26-02-2023 13:52:08 [INFO ] (TraceReporter:74) - 1 - 2023-02-26T13:52:08.458+07:00 - INFO: framework robustness score: 100
+26-02-2023 13:52:08 [INFO ] (TraceReporter:77) - 1 - 2023-02-26T13:52:08.458+07:00 - INFO: Consider checking usage of following elements:
+26-02-2023 13:52:08 [INFO ] (TraceReporter:217) - 1 - 2023-02-26T13:52:08.458+07:00 - CreateDATUIValidationTest was successful
+26-02-2023 13:52:08 [INFO ] (SeleniumTestSupport:235) - 1 - 2023-02-26T13:52:08.458+07:00 - 1 will be manually closed
+26-02-2023 13:52:08 [INFO ] (SeleniumTestSupport:240) - 1 - 2023-02-26T13:52:08.458+07:00 - closing browser ChromeDriver: chrome on WINDOWS (9ec57c38ea9d60ec2b40800bf5191f1b)
+26-02-2023 13:52:08 [INFO ] (SeleniumTestSupport:243) - 1 - 2023-02-26T13:52:08.574+07:00 - quiting browser ChromeDriver: chrome on WINDOWS (9ec57c38ea9d60ec2b40800bf5191f1b)
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:190) - 1 - 2023-02-26T13:52:55.883+07:00 - property selenium.useBrowserScreenshot is true
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:194) - 1 - 2023-02-26T13:52:55.888+07:00 - property selenium.traceSize is 20
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:201) - 1 - 2023-02-26T13:52:55.891+07:00 - WEBAPP URL : https://qa.donate.cancer.org/
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:212) - 1 - 2023-02-26T13:52:55.891+07:00 - PAGE_LOAD_TIME_IN_SECONDS : 10 secs
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:213) - 1 - 2023-02-26T13:52:55.891+07:00 - ROW_LOAD_TIME_IN_SECONDS : 3 secs
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:214) - 1 - 2023-02-26T13:52:55.892+07:00 - TIME_OUT_IN_SECONDS : 30 secs
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:215) - 1 - 2023-02-26T13:52:55.892+07:00 - USE_BROWSER_SCREENSHOT : true
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:216) - 1 - 2023-02-26T13:52:55.893+07:00 - TRACE_SIZE : 20
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:219) - 1 - 2023-02-26T13:52:55.893+07:00 -  Delete existing allure reports to create fresh reports
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:262) - 1 - 2023-02-26T13:52:55.912+07:00 - Executing 1 : CreateDATUIValidationTest
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:264) - 1 - 2023-02-26T13:52:55.913+07:00 - singleSharedBrowser.get() = null
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:265) - 1 - 2023-02-26T13:52:55.913+07:00 - browserValue = 
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:282) - here 0
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:283) - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  set driver Windows 10 set driver >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:285) - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Windows 10  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:524) - Wed driver link H:\Automation\Automation\framework\target\classes\chromedriver\chromedriver.exe
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:293) - <<<<<<<<<<<<<<<<<<H:\Automation\Automation\framework\target\classes\chromedriver\chromedriver.exe
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:552) - path.substring: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:295) - <<<<<<<<<<<<<<<<<< download path: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 13:52:55 [INFO ] (SeleniumTestSupport:298) - here 1
+26-02-2023 13:52:57 [INFO ] (SeleniumTestSupport:385) - Current windows are [CDwindow-28AFA95EE1B4C49323B3D43412A6C025]
+26-02-2023 13:52:57 [INFO ] (SeleniumTestSupport:389) - 1 - 2023-02-26T13:52:57.783+07:00 - Adding 1 in list of running threads
+26-02-2023 13:52:57 [INFO ] (SeleniumTestAsSimpliciaUser:22) - >>>> SeleniumTestAsSimpliciaUser@BeforeClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 13:52:57 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:52:57 [INFO ] (SeleniumTestSupport:1086) - Loading url: https://qa2.simplicia.co:7443/login
+26-02-2023 13:52:57 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 13:52:58 [INFO ] (SeleniumTestSupport:1088) - URL is: https://qa2.simplicia.co:7443/login
+26-02-2023 13:52:58 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:53:03 [INFO ] (SeleniumTestSupport:1097) - ############################### Disabling the support technique PopUP
+26-02-2023 13:53:03 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 13:53:08 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:53:08 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 13:53:09 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 2000ms
+26-02-2023 13:53:12 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 13:53:12 [INFO ] (ControlledObject:192) - By.name: email was found in 75ms
+26-02-2023 13:53:12 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 13:53:12 [INFO ] (ControlledObject:192) - By.name: email was found in 42ms
+26-02-2023 13:53:12 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:12.463+07:00 - number of click actions = 1
+26-02-2023 13:53:12 [INFO ] (SeleniumTestAsSimpliciaUser:29) - <<<< SeleniumTestAsSimpliciaUser@BeforeClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 13:53:12 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 13:53:12 [INFO ] (SeleniumTestAsSimpliciaUser:18) - Starting dat_Test_03_Export
+26-02-2023 13:53:12 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 13:53:12 [INFO ] (SeleniumTestSupport:552) - path.substring: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 13:53:12 [INFO ] (SeleniumTestAsSimpliciaUser:1171) -  <<<<<<<<<<  File deleted is H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c\dat.zip >>>>>>>>>>
+26-02-2023 13:53:13 [INFO ] (SeleniumTestAsSimpliciaUser:327) - *** Step 1 Action: Login the simplicia page ***
+26-02-2023 13:53:13 [INFO ] (SimpliciaReusableActions:65) - Logging in
+26-02-2023 13:53:13 [INFO ] (SeleniumTestSupport:1097) - ############################### Disabling the support technique PopUP
+26-02-2023 13:53:13 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 13:53:18 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:53:18 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 13:53:19 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 13:53:19 [INFO ] (ControlledObject:192) - By.name: email was found in 47ms
+26-02-2023 13:53:19 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 13:53:19 [INFO ] (ControlledObject:192) - By.name: email was found in 43ms
+26-02-2023 13:53:19 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:19.171+07:00 - number of click actions = 2
+26-02-2023 13:53:19 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:19.235+07:00 - Console log start.
+26-02-2023 13:53:19 [INFO ] (CommonUtil:54) - [2023-02-26T13:53:01+0700] [SEVERE] https://qa2.simplicia.co:7443/login 2:69 Uncaught TypeError: Cannot read properties of null (reading 'webTitle')
+26-02-2023 13:53:19 [INFO ] (CommonUtil:54) - [2023-02-26T13:53:02+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/login:14:906)"
+26-02-2023 13:53:19 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:19.237+07:00 - Console log end.
+26-02-2023 13:53:19 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:19.674+07:00 - Saving screenshot async target\screenshots\screenshot1677394399672.png
+26-02-2023 13:53:19 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:19.675+07:00 - Action traced with screenshot screenshot1677394399672.png
+26-02-2023 13:53:19 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:19.675+07:00 - trace with screenshot prepared in 497ms
+26-02-2023 13:53:19 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 13:53:19 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T13:53:19.682+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394399672.png
+26-02-2023 13:53:19 [INFO ] (ControlledObject:192) - By.name: email was found in 46ms
+26-02-2023 13:53:19 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:19.922+07:00 - sending keys paulbedoucha@gmail.com
+26-02-2023 13:53:19 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T13:53:19.923+07:00 - number of typing actions = 1
+26-02-2023 13:53:19 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 13:53:19 [INFO ] (ControlledObject:192) - By.name: password was found in 36ms
+26-02-2023 13:53:19 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 13:53:20 [INFO ] (ControlledObject:192) - By.name: password was found in 44ms
+26-02-2023 13:53:20 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:20.009+07:00 - number of click actions = 3
+26-02-2023 13:53:20 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:20.023+07:00 - Console log start.
+26-02-2023 13:53:20 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:20.024+07:00 - Console log end.
+26-02-2023 13:53:20 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:20.373+07:00 - Saving screenshot async target\screenshots\screenshot1677394400373.png
+26-02-2023 13:53:20 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:20.374+07:00 - Action traced with screenshot screenshot1677394400373.png
+26-02-2023 13:53:20 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:20.374+07:00 - trace with screenshot prepared in 360ms
+26-02-2023 13:53:20 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 13:53:20 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T13:53:20.374+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394400373.png
+26-02-2023 13:53:20 [INFO ] (ControlledObject:192) - By.name: password was found in 34ms
+26-02-2023 13:53:20 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:20.481+07:00 - sending keys test
+26-02-2023 13:53:20 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T13:53:20.481+07:00 - number of typing actions = 2
+26-02-2023 13:53:20 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 13:53:20 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 38ms
+26-02-2023 13:53:20 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 13:53:20 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 45ms
+26-02-2023 13:53:20 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:20.584+07:00 - number of click actions = 4
+26-02-2023 13:53:20 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:20.597+07:00 - Console log start.
+26-02-2023 13:53:20 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:20.598+07:00 - Console log end.
+26-02-2023 13:53:20 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:20.958+07:00 - Saving screenshot async target\screenshots\screenshot1677394400958.png
+26-02-2023 13:53:20 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:20.959+07:00 - Action traced with screenshot screenshot1677394400958.png
+26-02-2023 13:53:20 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:20.959+07:00 - trace with screenshot prepared in 369ms
+26-02-2023 13:53:20 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 13:53:20 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T13:53:20.959+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394400958.png
+26-02-2023 13:53:20 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 36ms
+26-02-2023 13:53:21 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:21.046+07:00 - number of click actions = 5
+26-02-2023 13:53:21 [INFO ] (SimpliciaReusableActions:76) - Logged in as paulbedoucha@gmail.com
+26-02-2023 13:53:23 [INFO ] (HomePage:74) - By.xpath: //h5[text()='Accueil'] was found in 990ms
+26-02-2023 13:53:23 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 2000ms
+26-02-2023 13:53:25 [INFO ] (SeleniumTestAsSimpliciaUser:330) - *** Step 2 Action: Navigate to Mes DATs ***
+26-02-2023 13:53:25 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 13:53:30 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:53:30 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 13:53:30 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:30 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 39ms
+26-02-2023 13:53:30 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:30 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 45ms
+26-02-2023 13:53:30 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:30.976+07:00 - number of click actions = 6
+26-02-2023 13:53:31 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:31.003+07:00 - Console log start.
+26-02-2023 13:53:31 [INFO ] (CommonUtil:54) - [2023-02-26T13:53:25+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 13:53:31 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:31.004+07:00 - Console log end.
+26-02-2023 13:53:31 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:31.227+07:00 - Saving screenshot async target\screenshots\screenshot1677394411227.png
+26-02-2023 13:53:31 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:31.227+07:00 - Action traced with screenshot screenshot1677394411227.png
+26-02-2023 13:53:31 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:31.227+07:00 - trace with screenshot prepared in 241ms
+26-02-2023 13:53:31 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:31 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T13:53:31.228+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394411227.png
+26-02-2023 13:53:31 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 37ms
+26-02-2023 13:53:31 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:31.333+07:00 - sending keys a
+26-02-2023 13:53:31 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T13:53:31.333+07:00 - number of typing actions = 3
+26-02-2023 13:53:31 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:31.344+07:00 - Console log start.
+26-02-2023 13:53:31 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:31.345+07:00 - Console log end.
+26-02-2023 13:53:31 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:31.575+07:00 - Saving screenshot async target\screenshots\screenshot1677394411575.png
+26-02-2023 13:53:31 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:31.575+07:00 - Action traced with screenshot screenshot1677394411575.png
+26-02-2023 13:53:31 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:31.576+07:00 - trace with screenshot prepared in 242ms
+26-02-2023 13:53:31 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:31 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T13:53:31.576+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394411575.png
+26-02-2023 13:53:31 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 47ms
+26-02-2023 13:53:31 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:31.814+07:00 - sending keys 189049205107000
+26-02-2023 13:53:31 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T13:53:31.815+07:00 - number of typing actions = 4
+26-02-2023 13:53:33 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:33.417+07:00 - By.xpath: .//th//span//mark[contains(text(),'189049205107000')] was found in 17ms
+26-02-2023 13:53:33 [INFO ] (DATMainPage:395) - Dat found: 189049205107000
+26-02-2023 13:53:35 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 13:53:43 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 13:53:48 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:53:48 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 13:53:48 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:48 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 47ms
+26-02-2023 13:53:48 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:48 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 80ms
+26-02-2023 13:53:48 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:48.399+07:00 - number of click actions = 7
+26-02-2023 13:53:48 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:48.416+07:00 - Console log start.
+26-02-2023 13:53:48 [INFO ] (CommonUtil:54) - [2023-02-26T13:53:33+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 13:53:48 [INFO ] (CommonUtil:54) - [2023-02-26T13:53:41+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 13:53:48 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:48.417+07:00 - Console log end.
+26-02-2023 13:53:48 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:48.652+07:00 - Saving screenshot async target\screenshots\screenshot1677394428652.png
+26-02-2023 13:53:48 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:48.652+07:00 - Action traced with screenshot screenshot1677394428652.png
+26-02-2023 13:53:48 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:48.652+07:00 - trace with screenshot prepared in 241ms
+26-02-2023 13:53:48 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:48 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T13:53:48.653+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394428652.png
+26-02-2023 13:53:48 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 40ms
+26-02-2023 13:53:48 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:48.746+07:00 - sending keys a
+26-02-2023 13:53:48 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T13:53:48.746+07:00 - number of typing actions = 5
+26-02-2023 13:53:48 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:48.755+07:00 - Console log start.
+26-02-2023 13:53:48 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:48.755+07:00 - Console log end.
+26-02-2023 13:53:48 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:48.979+07:00 - Saving screenshot async target\screenshots\screenshot1677394428979.png
+26-02-2023 13:53:48 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:48.980+07:00 - Action traced with screenshot screenshot1677394428979.png
+26-02-2023 13:53:48 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:48.980+07:00 - trace with screenshot prepared in 233ms
+26-02-2023 13:53:48 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 13:53:48 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T13:53:48.980+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394428979.png
+26-02-2023 13:53:49 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 38ms
+26-02-2023 13:53:49 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:49.183+07:00 - sending keys 189049205107000
+26-02-2023 13:53:49 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T13:53:49.183+07:00 - number of typing actions = 6
+26-02-2023 13:53:51 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:53:51.352+07:00 - By.xpath: .//th//span//mark[contains(text(),'189049205107000')] was found in 14ms
+26-02-2023 13:53:51 [INFO ] (DATMainPage:395) - Dat found: 189049205107000
+26-02-2023 13:53:51 [INFO ] (SeleniumTestSupport:350) - *** Print the value ***
+26-02-2023 13:53:51 [INFO ] (SeleniumTestSupport:352) - *** End of scroll ***
+26-02-2023 13:53:51 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 13:53:51 [INFO ] (ControlledObject:380) - 1 - 2023-02-26T13:53:51.476+07:00 - WARN: necessary waiting for 2 seconds Wait for delete button to display
+26-02-2023 13:53:53 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T13:53:53.508+07:00 - Console log start.
+26-02-2023 13:53:53 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T13:53:53.509+07:00 - Console log end.
+26-02-2023 13:53:53 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T13:53:53.736+07:00 - Saving screenshot async target\screenshots\screenshot1677394433736.png
+26-02-2023 13:53:53 [INFO ] (TracedAction:49) - 1 - 2023-02-26T13:53:53.736+07:00 - Action traced with screenshot screenshot1677394433736.png
+26-02-2023 13:53:53 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T13:53:53.737+07:00 - trace with screenshot prepared in 245ms
+26-02-2023 13:53:53 [INFO ] (ControlledObject:187) - finding controlled object By.cssSelector: button[title='Télécharger la DAT au format ZIP']
+26-02-2023 13:53:53 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T13:53:53.737+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677394433736.png
+26-02-2023 13:53:53 [INFO ] (ControlledObject:192) - By.cssSelector: button[title='Télécharger la DAT au format ZIP'] was found in 83ms
+26-02-2023 13:53:53 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:53:53.950+07:00 - number of click actions = 8
+26-02-2023 13:53:53 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 13:53:58 [INFO ] (DATMainPage:577) - *** resourcePath ***H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 13:53:58 [INFO ] (SeleniumTestSupport:534) - Files in dir: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 13:53:58 [INFO ] (SeleniumTestSupport:537) - - dat.zip
+26-02-2023 13:53:58 [INFO ] (DATMainPage:583) - ########## DAT is downloaded with name dat.zip #########
+26-02-2023 13:54:19 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T13:54:19.085+07:00 - Element By.cssSelector: button[aria-label='close'] was not found in 20051ms
+26-02-2023 13:54:19 [INFO ] (SimpliciaReusableActions:97) - Logging out
+26-02-2023 13:54:19 [INFO ] (HomePage:208) - By.xpath: //span[text()='Se Déconnecter'] was found in 19ms
+26-02-2023 13:54:21 [INFO ] (HomePage:210) - Clicked on By.xpath: //span[text()='Se Déconnecter']
+26-02-2023 13:54:21 [INFO ] (SimpliciaReusableActions:119) - browser is a WebStorage, clearing session and local storage
+26-02-2023 13:54:22 [INFO ] (SimpliciaReusableActions:123) - session and local storage cleared
+26-02-2023 13:54:24 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //img[@src='assets/images/logos/simplicia_logo.png']
+26-02-2023 13:54:24 [INFO ] (ControlledObject:192) - By.xpath: //img[@src='assets/images/logos/simplicia_logo.png'] was found in 82ms
+26-02-2023 13:54:24 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //img[@src='assets/images/logos/simplicia_logo.png']
+26-02-2023 13:54:24 [INFO ] (ControlledObject:192) - By.xpath: //img[@src='assets/images/logos/simplicia_logo.png'] was found in 44ms
+26-02-2023 13:54:24 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T13:54:24.228+07:00 - number of click actions = 9
+26-02-2023 13:54:24 [INFO ] (SimpliciaReusableActions:114) - Logged out
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:18) - Finished dat_Test_03_Export
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 13:54:24 [INFO ] (SeleniumTestSupport:760) - Windows are CDwindow-28AFA95EE1B4C49323B3D43412A6C025
+26-02-2023 13:54:24 [INFO ] (SeleniumTestSupport:761) - Switching to window number 0 which is CDwindow-28AFA95EE1B4C49323B3D43412A6C025
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:34) - >>>> SeleniumTestAsSimpliciaUser@AfterClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:35) - logoutFlag=false
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:44) - Logging out DISABLED
+26-02-2023 13:54:24 [INFO ] (SeleniumTestAsSimpliciaUser:46) - <<<< SeleniumTestAsSimpliciaUser@AfterClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 13:54:24 [INFO ] (TraceReporter:90) - 1 - 2023-02-26T13:54:24.364+07:00 - INFO: Number of click actions performed: 9
+26-02-2023 13:54:24 [INFO ] (TraceReporter:91) - 1 - 2023-02-26T13:54:24.365+07:00 - INFO: Number of typing actions performed: 6
+26-02-2023 13:54:24 [INFO ] (TraceReporter:92) - 1 - 2023-02-26T13:54:24.365+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 13:54:24 [INFO ] (TraceReporter:94) - 1 - 2023-02-26T13:54:24.365+07:00 - INFO: Duration of this run: 1 mins
+26-02-2023 13:54:24 [INFO ] (TraceReporter:96) - 1 - 2023-02-26T13:54:24.366+07:00 - INFO: Estimated virtual manual execution: 1 mins
+26-02-2023 13:54:24 [INFO ] (TraceReporter:97) - 1 - 2023-02-26T13:54:24.366+07:00 - INFO: Estimated real-time execution: 4 mins
+26-02-2023 13:54:24 [INFO ] (TraceReporter:98) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Effort saved by this run: 2 mins
+26-02-2023 13:54:24 [INFO ] (TraceReporter:45) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Number of click actions performed: 9
+26-02-2023 13:54:24 [INFO ] (TraceReporter:46) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Number of typing actions performed: 6
+26-02-2023 13:54:24 [INFO ] (TraceReporter:47) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 13:54:24 [INFO ] (TraceReporter:50) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Estimated virtual manual execution: 1 mins
+26-02-2023 13:54:24 [INFO ] (TraceReporter:51) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Estimated real-time execution: 2 mins
+26-02-2023 13:54:24 [INFO ] (TraceReporter:53) - 1 - 2023-02-26T13:54:24.368+07:00 - INFO: Tests executed sorted by duration:
+26-02-2023 13:54:24 [INFO ] (TraceReporter:66) - 1 - 2023-02-26T13:54:24.382+07:00 - INFO:     CreateDATUIValidationTest -> 71867 ms [clicks: 9, typing: 6, selections: 0, idle: 0 ms)
+26-02-2023 13:54:24 [INFO ] (TraceReporter:71) - 1 - 2023-02-26T13:54:24.383+07:00 - INFO: maximum retrieval time: 0 secs
+26-02-2023 13:54:24 [INFO ] (TraceReporter:72) - 1 - 2023-02-26T13:54:24.384+07:00 - INFO: number of retried actions: 0
+26-02-2023 13:54:24 [INFO ] (TraceReporter:74) - 1 - 2023-02-26T13:54:24.384+07:00 - INFO: framework robustness score: 100
+26-02-2023 13:54:24 [INFO ] (TraceReporter:77) - 1 - 2023-02-26T13:54:24.384+07:00 - INFO: Consider checking usage of following elements:
+26-02-2023 13:54:24 [INFO ] (TraceReporter:217) - 1 - 2023-02-26T13:54:24.384+07:00 - CreateDATUIValidationTest was successful
+26-02-2023 13:54:24 [INFO ] (SeleniumTestSupport:235) - 1 - 2023-02-26T13:54:24.384+07:00 - 1 will be manually closed
+26-02-2023 13:54:24 [INFO ] (SeleniumTestSupport:240) - 1 - 2023-02-26T13:54:24.384+07:00 - closing browser ChromeDriver: chrome on WINDOWS (7f959c78168547dfbfb17ef46c71212d)
+26-02-2023 13:54:24 [INFO ] (SeleniumTestSupport:243) - 1 - 2023-02-26T13:54:24.683+07:00 - quiting browser ChromeDriver: chrome on WINDOWS (7f959c78168547dfbfb17ef46c71212d)
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:189) - 1 - 2023-02-26T14:05:49.241+07:00 - property selenium.useBrowserScreenshot is true
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:193) - 1 - 2023-02-26T14:05:49.243+07:00 - property selenium.traceSize is 20
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:200) - 1 - 2023-02-26T14:05:49.246+07:00 - WEBAPP URL : https://qa.donate.cancer.org/
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:211) - 1 - 2023-02-26T14:05:49.246+07:00 - PAGE_LOAD_TIME_IN_SECONDS : 10 secs
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:212) - 1 - 2023-02-26T14:05:49.247+07:00 - ROW_LOAD_TIME_IN_SECONDS : 3 secs
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:213) - 1 - 2023-02-26T14:05:49.247+07:00 - TIME_OUT_IN_SECONDS : 30 secs
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:214) - 1 - 2023-02-26T14:05:49.247+07:00 - USE_BROWSER_SCREENSHOT : true
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:215) - 1 - 2023-02-26T14:05:49.248+07:00 - TRACE_SIZE : 20
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:218) - 1 - 2023-02-26T14:05:49.248+07:00 -  Delete existing allure reports to create fresh reports
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:261) - 1 - 2023-02-26T14:05:49.270+07:00 - Executing 1 : CreateDATUIValidationTest
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:263) - 1 - 2023-02-26T14:05:49.270+07:00 - singleSharedBrowser.get() = null
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:264) - 1 - 2023-02-26T14:05:49.271+07:00 - browserValue = 
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:281) - here 0
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:282) - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  set driver Windows 10 set driver >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:284) - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Windows 10  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:526) - Wed driver link H:\Automation\Automation\framework\target\classes\chromedriver\chromedriver.exe
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:292) - <<<<<<<<<<<<<<<<<<H:\Automation\Automation\framework\target\classes\chromedriver\chromedriver.exe
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:294) - <<<<<<<<<<<<<<<<<< download path: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 14:05:49 [INFO ] (SeleniumTestSupport:297) - here 1
+26-02-2023 14:05:51 [INFO ] (SeleniumTestSupport:387) - Current windows are [CDwindow-08904B47EA0D807A176DDB3D55B517D7]
+26-02-2023 14:05:51 [INFO ] (SeleniumTestSupport:391) - 1 - 2023-02-26T14:05:51.678+07:00 - Adding 1 in list of running threads
+26-02-2023 14:05:51 [INFO ] (SeleniumTestAsSimpliciaUser:22) - >>>> SeleniumTestAsSimpliciaUser@BeforeClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:05:51 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:05:51 [INFO ] (SeleniumTestSupport:1086) - Loading url: https://qa2.simplicia.co:7443/login
+26-02-2023 14:05:51 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:05:52 [INFO ] (SeleniumTestSupport:1088) - URL is: https://qa2.simplicia.co:7443/login
+26-02-2023 14:05:52 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:05:58 [INFO ] (SeleniumTestSupport:1097) - ############################### Disabling the support technique PopUP
+26-02-2023 14:05:58 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:06:03 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:06:03 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:06:04 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 2000ms
+26-02-2023 14:06:07 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:06:07 [INFO ] (ControlledObject:192) - By.name: email was found in 94ms
+26-02-2023 14:06:07 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:06:07 [INFO ] (ControlledObject:192) - By.name: email was found in 52ms
+26-02-2023 14:06:07 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:06:07.356+07:00 - number of click actions = 1
+26-02-2023 14:06:07 [INFO ] (SeleniumTestAsSimpliciaUser:29) - <<<< SeleniumTestAsSimpliciaUser@BeforeClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:06:07 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:06:07 [INFO ] (SeleniumTestAsSimpliciaUser:18) - Starting dat_Test_03_Export
+26-02-2023 14:06:07 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:06:07 [INFO ] (SeleniumTestAsSimpliciaUser:1171) -  <<<<<<<<<<  File deleted is H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c\dat.zip >>>>>>>>>>
+26-02-2023 14:06:07 [INFO ] (SeleniumTestAsSimpliciaUser:327) - *** Step 1 Action: Login the simplicia page ***
+26-02-2023 14:06:07 [INFO ] (SimpliciaReusableActions:65) - Logging in
+26-02-2023 14:06:07 [INFO ] (SeleniumTestSupport:1097) - ############################### Disabling the support technique PopUP
+26-02-2023 14:06:07 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:06:12 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:06:12 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:06:13 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:06:13 [INFO ] (ControlledObject:192) - By.name: email was found in 43ms
+26-02-2023 14:06:13 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:06:13 [INFO ] (ControlledObject:192) - By.name: email was found in 30ms
+26-02-2023 14:06:13 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:06:13.810+07:00 - number of click actions = 2
+26-02-2023 14:06:13 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:13.926+07:00 - Console log start.
+26-02-2023 14:06:13 [INFO ] (CommonUtil:54) - [2023-02-26T14:05:55+0700] [SEVERE] https://qa2.simplicia.co:7443/login 2:69 Uncaught TypeError: Cannot read properties of null (reading 'webTitle')
+26-02-2023 14:06:13 [INFO ] (CommonUtil:54) - [2023-02-26T14:05:57+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/login:14:906)"
+26-02-2023 14:06:13 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:13.928+07:00 - Console log end.
+26-02-2023 14:06:14 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:06:14.322+07:00 - Saving screenshot async target\screenshots\screenshot1677395174319.png
+26-02-2023 14:06:14 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:06:14.323+07:00 - Action traced with screenshot screenshot1677395174319.png
+26-02-2023 14:06:14 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:06:14.323+07:00 - trace with screenshot prepared in 483ms
+26-02-2023 14:06:14 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:06:14 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:06:14.339+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395174319.png
+26-02-2023 14:06:14 [INFO ] (ControlledObject:192) - By.name: email was found in 33ms
+26-02-2023 14:06:14 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:06:14.696+07:00 - sending keys paulbedoucha@gmail.com
+26-02-2023 14:06:14 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:06:14.696+07:00 - number of typing actions = 1
+26-02-2023 14:06:14 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 14:06:14 [INFO ] (ControlledObject:192) - By.name: password was found in 52ms
+26-02-2023 14:06:14 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 14:06:14 [INFO ] (ControlledObject:192) - By.name: password was found in 39ms
+26-02-2023 14:06:14 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:06:14.810+07:00 - number of click actions = 3
+26-02-2023 14:06:14 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:14.836+07:00 - Console log start.
+26-02-2023 14:06:14 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:14.837+07:00 - Console log end.
+26-02-2023 14:06:15 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:06:15.207+07:00 - Saving screenshot async target\screenshots\screenshot1677395175207.png
+26-02-2023 14:06:15 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:06:15.208+07:00 - Action traced with screenshot screenshot1677395175207.png
+26-02-2023 14:06:15 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:06:15.209+07:00 - trace with screenshot prepared in 390ms
+26-02-2023 14:06:15 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 14:06:15 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T14:06:15.210+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395175207.png
+26-02-2023 14:06:15 [INFO ] (ControlledObject:192) - By.name: password was found in 40ms
+26-02-2023 14:06:15 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:06:15.335+07:00 - sending keys test
+26-02-2023 14:06:15 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:06:15.335+07:00 - number of typing actions = 2
+26-02-2023 14:06:15 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 14:06:15 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 58ms
+26-02-2023 14:06:15 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 14:06:15 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 54ms
+26-02-2023 14:06:15 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:06:15.469+07:00 - number of click actions = 4
+26-02-2023 14:06:15 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:15.482+07:00 - Console log start.
+26-02-2023 14:06:15 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:15.483+07:00 - Console log end.
+26-02-2023 14:06:15 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:06:15.984+07:00 - Saving screenshot async target\screenshots\screenshot1677395175984.png
+26-02-2023 14:06:15 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:06:15.985+07:00 - Action traced with screenshot screenshot1677395175984.png
+26-02-2023 14:06:15 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:06:15.985+07:00 - trace with screenshot prepared in 508ms
+26-02-2023 14:06:15 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 14:06:15 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:06:15.986+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395175984.png
+26-02-2023 14:06:16 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 46ms
+26-02-2023 14:06:16 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:06:16.133+07:00 - number of click actions = 5
+26-02-2023 14:06:16 [INFO ] (SimpliciaReusableActions:76) - Logged in as paulbedoucha@gmail.com
+26-02-2023 14:06:18 [INFO ] (HomePage:74) - By.xpath: //h5[text()='Accueil'] was found in 1562ms
+26-02-2023 14:06:18 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 2000ms
+26-02-2023 14:06:20 [INFO ] (SeleniumTestAsSimpliciaUser:330) - *** Step 2 Action: Navigate to Mes DATs ***
+26-02-2023 14:06:23 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:06:28 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:06:28 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 14:06:28 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:06:28 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 51ms
+26-02-2023 14:06:28 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:06:28 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 45ms
+26-02-2023 14:06:28 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:06:28.309+07:00 - number of click actions = 6
+26-02-2023 14:06:28 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:28.326+07:00 - Console log start.
+26-02-2023 14:06:28 [INFO ] (CommonUtil:54) - [2023-02-26T14:06:21+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 14:06:28 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:28.328+07:00 - Console log end.
+26-02-2023 14:06:28 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:06:28.578+07:00 - Saving screenshot async target\screenshots\screenshot1677395188578.png
+26-02-2023 14:06:28 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:06:28.579+07:00 - Action traced with screenshot screenshot1677395188578.png
+26-02-2023 14:06:28 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:06:28.580+07:00 - trace with screenshot prepared in 260ms
+26-02-2023 14:06:28 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:06:28 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T14:06:28.587+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395188578.png
+26-02-2023 14:06:28 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 34ms
+26-02-2023 14:06:28 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:06:28.657+07:00 - sending keys a
+26-02-2023 14:06:28 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:06:28.658+07:00 - number of typing actions = 3
+26-02-2023 14:06:28 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:28.667+07:00 - Console log start.
+26-02-2023 14:06:28 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:28.667+07:00 - Console log end.
+26-02-2023 14:06:28 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:06:28.920+07:00 - Saving screenshot async target\screenshots\screenshot1677395188920.png
+26-02-2023 14:06:28 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:06:28.921+07:00 - Action traced with screenshot screenshot1677395188920.png
+26-02-2023 14:06:28 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:06:28.921+07:00 - trace with screenshot prepared in 263ms
+26-02-2023 14:06:28 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:06:28 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:06:28.921+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395188920.png
+26-02-2023 14:06:28 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 35ms
+26-02-2023 14:06:29 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:06:29.126+07:00 - sending keys 189049205107000
+26-02-2023 14:06:29 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:06:29.127+07:00 - number of typing actions = 4
+26-02-2023 14:06:49 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:49.220+07:00 - Console log start.
+26-02-2023 14:06:49 [INFO ] (CommonUtil:54) - [2023-02-26T14:06:30+0700] [SEVERE] https://qa2.simplicia.co:7443/api/dat/filter?pageNr=0&pageSize=25&sirets=&datId=&sortedDirection=DESC&sortedBy=createdDate&query=189049205107000&clientId=2c9380837458523b01745858ade60003 - Failed to load resource: net::ERR_NETWORK_CHANGED
+26-02-2023 14:06:49 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:49.222+07:00 - Console log end.
+26-02-2023 14:06:49 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:06:49.544+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot14642567436666098414.png
+26-02-2023 14:06:49 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:06:49.549+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot14642567436666098414.png
+26-02-2023 14:06:49 [INFO ] (CommonUtil:34) - 1 - 2023-02-26T14:06:49.551+07:00 - Screenshot taken on exception: screenshot14642567436666098414.png, error message: Expected condition failed: waiting for visibility of element located by By.xpath: .//th//span//mark[contains(text(),'189049205107000')] (tried for 10 second(s) with 500 milliseconds interval)
+26-02-2023 14:06:49 [INFO ] (SeleniumTestSupport:1073) - [Retriable] Retrying in 1000 ms
+26-02-2023 14:06:49 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:06:50 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 2
+26-02-2023 14:06:50 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 14:06:50 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:06:50 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:50.697+07:00 - Console log start.
+26-02-2023 14:06:50 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:50.699+07:00 - Console log end.
+26-02-2023 14:06:51 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:06:51.004+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot8734922378917819340.png
+26-02-2023 14:06:51 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:06:51.014+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot8734922378917819340.png
+26-02-2023 14:06:51 [INFO ] (CommonUtil:34) - 1 - 2023-02-26T14:06:51.017+07:00 - Screenshot taken on exception: screenshot8734922378917819340.png, error message: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval)
+26-02-2023 14:06:51 [INFO ] (ControlledObject:257) - WARN: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval), screenshot: screenshot8734922378917819340.png
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-EGEH07G', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\nqthai\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cafa00c72eb1e2c4fcf570978b363f8
+26-02-2023 14:06:51 [INFO ] (ControlledObject:258) - WARN: action on By.xpath: //input[@placeholder='Rechercher'] failed, retrying...
+26-02-2023 14:06:51 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:06:51 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:06:51.069+07:00 - Console log start.
+26-02-2023 14:06:51 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:06:51.069+07:00 - Console log end.
+26-02-2023 14:06:51 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:06:51.419+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot4549808747982428594.png
+26-02-2023 14:06:51 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:06:51.421+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot4549808747982428594.png
+26-02-2023 14:06:51 [INFO ] (CommonUtil:34) - 1 - 2023-02-26T14:06:51.422+07:00 - Screenshot taken on exception: screenshot4549808747982428594.png, error message: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval)
+26-02-2023 14:06:51 [INFO ] (ControlledObject:268) - WARN: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval), screenshot: screenshot8734922378917819340.png
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-EGEH07G', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\nqthai\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cafa00c72eb1e2c4fcf570978b363f8
+26-02-2023 14:06:51 [INFO ] (ControlledObject:269) - WARN: action on By.xpath: //input[@placeholder='Rechercher'] failed, trying to find element in content...
+26-02-2023 14:07:31 [INFO ] (ControlledElement:545) - 1 - 2023-02-26T14:07:11.556+07:00 - by.findElements(webDriver) = []
+26-02-2023 14:07:31 [INFO ] (ControlledElement:546) - 1 - 2023-02-26T14:07:31.617+07:00 - by = By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:07:51 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:07:51.680+07:00 - switching back to initial window CDwindow-08904B47EA0D807A176DDB3D55B517D7
+26-02-2023 14:07:51 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:07:51.697+07:00 - switching back to initial window successful
+26-02-2023 14:07:51 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:07:51.736+07:00 - switching to default content
+26-02-2023 14:07:51 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:07:51.757+07:00 - switching back to default content successful
+26-02-2023 14:07:51 [INFO ] (ControlledObject:272) - ERROR - Action on By.xpath: //input[@placeholder='Rechercher'] couldn't be performed in 61116ms (time out is 0 * 2 secs
+26-02-2023 14:07:51 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:07:51.770+07:00 - Console log start.
+26-02-2023 14:07:51 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:07:51.771+07:00 - Console log end.
+26-02-2023 14:07:52 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:07:52.116+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot5469809600076196954.png
+26-02-2023 14:07:52 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:07:52.118+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot5469809600076196954.png
+26-02-2023 14:07:52 [INFO ] (SeleniumTestSupport:1073) - [Retriable] Retrying in 1000 ms
+26-02-2023 14:07:52 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:07:53 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 3
+26-02-2023 14:07:53 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 14:07:53 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:07:53 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:07:53.421+07:00 - Console log start.
+26-02-2023 14:07:53 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:07:53.422+07:00 - Console log end.
+26-02-2023 14:07:53 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:07:53.773+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot3514569670391522283.png
+26-02-2023 14:07:53 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:07:53.775+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot3514569670391522283.png
+26-02-2023 14:07:53 [INFO ] (CommonUtil:34) - 1 - 2023-02-26T14:07:53.784+07:00 - Screenshot taken on exception: screenshot3514569670391522283.png, error message: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval)
+26-02-2023 14:07:53 [INFO ] (ControlledObject:257) - WARN: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval), screenshot: screenshot3514569670391522283.png
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-EGEH07G', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\nqthai\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cafa00c72eb1e2c4fcf570978b363f8
+26-02-2023 14:07:53 [INFO ] (ControlledObject:258) - WARN: action on By.xpath: //input[@placeholder='Rechercher'] failed, retrying...
+26-02-2023 14:07:53 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:07:53 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:07:53.838+07:00 - Console log start.
+26-02-2023 14:07:53 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:07:53.838+07:00 - Console log end.
+26-02-2023 14:07:54 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:07:54.248+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot9570096674434412736.png
+26-02-2023 14:07:54 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:07:54.251+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot9570096674434412736.png
+26-02-2023 14:07:54 [INFO ] (CommonUtil:34) - 1 - 2023-02-26T14:07:54.253+07:00 - Screenshot taken on exception: screenshot9570096674434412736.png, error message: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval)
+26-02-2023 14:07:54 [INFO ] (ControlledObject:268) - WARN: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@placeholder='Rechercher'] (tried for 0 second(s) with 500 milliseconds interval), screenshot: screenshot3514569670391522283.png
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-EGEH07G', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\nqthai\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cafa00c72eb1e2c4fcf570978b363f8
+26-02-2023 14:07:54 [INFO ] (ControlledObject:269) - WARN: action on By.xpath: //input[@placeholder='Rechercher'] failed, trying to find element in content...
+26-02-2023 14:08:34 [INFO ] (ControlledElement:545) - 1 - 2023-02-26T14:08:14.355+07:00 - by.findElements(webDriver) = []
+26-02-2023 14:08:34 [INFO ] (ControlledElement:546) - 1 - 2023-02-26T14:08:34.438+07:00 - by = By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:08:54 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:08:54.534+07:00 - switching back to initial window CDwindow-08904B47EA0D807A176DDB3D55B517D7
+26-02-2023 14:08:54 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:08:54.555+07:00 - switching back to initial window successful
+26-02-2023 14:08:54 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:08:54.555+07:00 - switching to default content
+26-02-2023 14:08:54 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:08:54.576+07:00 - switching back to default content successful
+26-02-2023 14:08:54 [INFO ] (ControlledObject:272) - ERROR - Action on By.xpath: //input[@placeholder='Rechercher'] couldn't be performed in 61273ms (time out is 0 * 2 secs
+26-02-2023 14:08:54 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:08:54.611+07:00 - Console log start.
+26-02-2023 14:08:54 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:08:54.613+07:00 - Console log end.
+26-02-2023 14:08:54 [INFO ] (CommonUtil:67) - 1 - 2023-02-26T14:08:54.970+07:00 - Copying screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot1214602560814044066.png
+26-02-2023 14:08:54 [INFO ] (CommonUtil:69) - 1 - 2023-02-26T14:08:54.972+07:00 - Copied screenshot from C:\Users\nqthai\AppData\Local\Temp\screenshot1214602560814044066.png
+26-02-2023 14:08:54 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ###################### No DAT with Numero SS number 189049205107000 is present to be downloaded ##############################
+26-02-2023 14:08:54 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ###################### No DAT was Created ##############################
+26-02-2023 14:09:15 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:09:15.018+07:00 - Element By.cssSelector: button[aria-label='close'] was not found in 20034ms
+26-02-2023 14:09:15 [INFO ] (SimpliciaReusableActions:97) - Logging out
+26-02-2023 14:09:15 [INFO ] (HomePage:208) - By.xpath: //span[text()='Se Déconnecter'] was found in 45ms
+26-02-2023 14:09:18 [INFO ] (HomePage:210) - Clicked on By.xpath: //span[text()='Se Déconnecter']
+26-02-2023 14:09:18 [INFO ] (SimpliciaReusableActions:119) - browser is a WebStorage, clearing session and local storage
+26-02-2023 14:09:18 [INFO ] (SimpliciaReusableActions:123) - session and local storage cleared
+26-02-2023 14:09:20 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //img[@src='assets/images/logos/simplicia_logo.png']
+26-02-2023 14:09:20 [INFO ] (ControlledObject:192) - By.xpath: //img[@src='assets/images/logos/simplicia_logo.png'] was found in 44ms
+26-02-2023 14:09:20 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //img[@src='assets/images/logos/simplicia_logo.png']
+26-02-2023 14:09:20 [INFO ] (ControlledObject:192) - By.xpath: //img[@src='assets/images/logos/simplicia_logo.png'] was found in 86ms
+26-02-2023 14:09:20 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:09:20.593+07:00 - number of click actions = 7
+26-02-2023 14:09:20 [INFO ] (SimpliciaReusableActions:114) - Logged out
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:18) - Finished dat_Test_03_Export
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:09:20 [INFO ] (SeleniumTestSupport:760) - Windows are CDwindow-08904B47EA0D807A176DDB3D55B517D7
+26-02-2023 14:09:20 [INFO ] (SeleniumTestSupport:761) - Switching to window number 0 which is CDwindow-08904B47EA0D807A176DDB3D55B517D7
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:34) - >>>> SeleniumTestAsSimpliciaUser@AfterClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:35) - logoutFlag=false
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:44) - Logging out DISABLED
+26-02-2023 14:09:20 [INFO ] (SeleniumTestAsSimpliciaUser:46) - <<<< SeleniumTestAsSimpliciaUser@AfterClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:09:20 [INFO ] (TraceReporter:90) - 1 - 2023-02-26T14:09:20.678+07:00 - INFO: Number of click actions performed: 7
+26-02-2023 14:09:20 [INFO ] (TraceReporter:91) - 1 - 2023-02-26T14:09:20.678+07:00 - INFO: Number of typing actions performed: 4
+26-02-2023 14:09:20 [INFO ] (TraceReporter:92) - 1 - 2023-02-26T14:09:20.679+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 14:09:20 [INFO ] (TraceReporter:94) - 1 - 2023-02-26T14:09:20.679+07:00 - INFO: Duration of this run: 3 mins
+26-02-2023 14:09:20 [INFO ] (TraceReporter:96) - 1 - 2023-02-26T14:09:20.679+07:00 - INFO: Estimated virtual manual execution: 0 mins
+26-02-2023 14:09:20 [INFO ] (TraceReporter:97) - 1 - 2023-02-26T14:09:20.679+07:00 - INFO: Estimated real-time execution: 3 mins
+26-02-2023 14:09:20 [INFO ] (TraceReporter:98) - 1 - 2023-02-26T14:09:20.679+07:00 - INFO: Effort saved by this run: 0 mins
+26-02-2023 14:09:20 [INFO ] (TraceReporter:45) - 1 - 2023-02-26T14:09:20.679+07:00 - INFO: Number of click actions performed: 7
+26-02-2023 14:09:20 [INFO ] (TraceReporter:46) - 1 - 2023-02-26T14:09:20.680+07:00 - INFO: Number of typing actions performed: 4
+26-02-2023 14:09:20 [INFO ] (TraceReporter:47) - 1 - 2023-02-26T14:09:20.680+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 14:09:20 [INFO ] (TraceReporter:50) - 1 - 2023-02-26T14:09:20.680+07:00 - INFO: Estimated virtual manual execution: 0 mins
+26-02-2023 14:09:20 [INFO ] (TraceReporter:51) - 1 - 2023-02-26T14:09:20.680+07:00 - INFO: Estimated real-time execution: 1 mins
+26-02-2023 14:09:20 [INFO ] (TraceReporter:53) - 1 - 2023-02-26T14:09:20.680+07:00 - INFO: Tests executed sorted by duration:
+26-02-2023 14:09:20 [INFO ] (TraceReporter:66) - 1 - 2023-02-26T14:09:20.696+07:00 - INFO:     CreateDATUIValidationTest -> 193288 ms [clicks: 7, typing: 4, selections: 0, idle: 0 ms)
+26-02-2023 14:09:20 [INFO ] (TraceReporter:71) - 1 - 2023-02-26T14:09:20.696+07:00 - INFO: maximum retrieval time: 0 secs
+26-02-2023 14:09:20 [INFO ] (TraceReporter:72) - 1 - 2023-02-26T14:09:20.697+07:00 - INFO: number of retried actions: 0
+26-02-2023 14:09:20 [INFO ] (TraceReporter:74) - 1 - 2023-02-26T14:09:20.697+07:00 - INFO: framework robustness score: 100
+26-02-2023 14:09:20 [INFO ] (TraceReporter:77) - 1 - 2023-02-26T14:09:20.697+07:00 - INFO: Consider checking usage of following elements:
+26-02-2023 14:09:20 [INFO ] (TraceReporter:217) - 1 - 2023-02-26T14:09:20.697+07:00 - CreateDATUIValidationTest was successful
+26-02-2023 14:09:20 [INFO ] (SeleniumTestSupport:234) - 1 - 2023-02-26T14:09:20.697+07:00 - 1 will be manually closed
+26-02-2023 14:09:20 [INFO ] (SeleniumTestSupport:239) - 1 - 2023-02-26T14:09:20.698+07:00 - closing browser ChromeDriver: chrome on WINDOWS (4cafa00c72eb1e2c4fcf570978b363f8)
+26-02-2023 14:09:20 [INFO ] (SeleniumTestSupport:242) - 1 - 2023-02-26T14:09:20.879+07:00 - quiting browser ChromeDriver: chrome on WINDOWS (4cafa00c72eb1e2c4fcf570978b363f8)
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:189) - 1 - 2023-02-26T14:09:32.087+07:00 - property selenium.useBrowserScreenshot is true
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:193) - 1 - 2023-02-26T14:09:32.090+07:00 - property selenium.traceSize is 20
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:200) - 1 - 2023-02-26T14:09:32.092+07:00 - WEBAPP URL : https://qa.donate.cancer.org/
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:211) - 1 - 2023-02-26T14:09:32.093+07:00 - PAGE_LOAD_TIME_IN_SECONDS : 10 secs
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:212) - 1 - 2023-02-26T14:09:32.093+07:00 - ROW_LOAD_TIME_IN_SECONDS : 3 secs
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:213) - 1 - 2023-02-26T14:09:32.094+07:00 - TIME_OUT_IN_SECONDS : 30 secs
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:214) - 1 - 2023-02-26T14:09:32.094+07:00 - USE_BROWSER_SCREENSHOT : true
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:215) - 1 - 2023-02-26T14:09:32.094+07:00 - TRACE_SIZE : 20
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:218) - 1 - 2023-02-26T14:09:32.095+07:00 -  Delete existing allure reports to create fresh reports
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:261) - 1 - 2023-02-26T14:09:32.111+07:00 - Executing 1 : CreateDATUIValidationTest
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:263) - 1 - 2023-02-26T14:09:32.111+07:00 - singleSharedBrowser.get() = null
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:264) - 1 - 2023-02-26T14:09:32.111+07:00 - browserValue = 
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:281) - here 0
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:282) - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  set driver Windows 10 set driver >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:284) - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Windows 10  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:526) - Wed driver link H:\Automation\Automation\framework\target\classes\chromedriver\chromedriver.exe
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:292) - <<<<<<<<<<<<<<<<<<H:\Automation\Automation\framework\target\classes\chromedriver\chromedriver.exe
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:294) - <<<<<<<<<<<<<<<<<< download path: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 14:09:32 [INFO ] (SeleniumTestSupport:297) - here 1
+26-02-2023 14:09:34 [INFO ] (SeleniumTestSupport:387) - Current windows are [CDwindow-BFEBF29BFC7004D75285A003D1F6AAC4]
+26-02-2023 14:09:34 [INFO ] (SeleniumTestSupport:391) - 1 - 2023-02-26T14:09:34.419+07:00 - Adding 1 in list of running threads
+26-02-2023 14:09:34 [INFO ] (SeleniumTestAsSimpliciaUser:22) - >>>> SeleniumTestAsSimpliciaUser@BeforeClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:09:34 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:09:34 [INFO ] (SeleniumTestSupport:1086) - Loading url: https://qa2.simplicia.co:7443/login
+26-02-2023 14:09:34 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:09:35 [INFO ] (SeleniumTestSupport:1088) - URL is: https://qa2.simplicia.co:7443/login
+26-02-2023 14:09:35 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:09:43 [INFO ] (SeleniumTestSupport:1097) - ############################### Disabling the support technique PopUP
+26-02-2023 14:09:43 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:09:48 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:09:48 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:09:49 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 2000ms
+26-02-2023 14:09:52 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:09:52 [INFO ] (ControlledObject:192) - By.name: email was found in 98ms
+26-02-2023 14:09:52 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:09:52 [INFO ] (ControlledObject:192) - By.name: email was found in 42ms
+26-02-2023 14:09:52 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:09:52.315+07:00 - number of click actions = 1
+26-02-2023 14:09:52 [INFO ] (SeleniumTestAsSimpliciaUser:29) - <<<< SeleniumTestAsSimpliciaUser@BeforeClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:09:52 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:09:52 [INFO ] (SeleniumTestAsSimpliciaUser:18) - Starting dat_Test_03_Export
+26-02-2023 14:09:52 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:09:52 [INFO ] (SeleniumTestAsSimpliciaUser:327) - *** Step 1 Action: Login the simplicia page ***
+26-02-2023 14:09:52 [INFO ] (SimpliciaReusableActions:65) - Logging in
+26-02-2023 14:09:52 [INFO ] (SeleniumTestSupport:1097) - ############################### Disabling the support technique PopUP
+26-02-2023 14:09:52 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:09:57 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:09:57 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 1000ms
+26-02-2023 14:09:58 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:09:58 [INFO ] (ControlledObject:192) - By.name: email was found in 67ms
+26-02-2023 14:09:58 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:09:58 [INFO ] (ControlledObject:192) - By.name: email was found in 39ms
+26-02-2023 14:09:58 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:09:58.912+07:00 - number of click actions = 2
+26-02-2023 14:09:58 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:09:58.928+07:00 - Console log start.
+26-02-2023 14:09:58 [INFO ] (CommonUtil:54) - [2023-02-26T14:09:40+0700] [SEVERE] https://qa2.simplicia.co:7443/login 2:69 Uncaught TypeError: Cannot read properties of null (reading 'webTitle')
+26-02-2023 14:09:58 [INFO ] (CommonUtil:54) - [2023-02-26T14:09:42+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/login:14:906)"
+26-02-2023 14:09:58 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:09:58.929+07:00 - Console log end.
+26-02-2023 14:09:59 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:09:59.327+07:00 - Saving screenshot async target\screenshots\screenshot1677395399325.png
+26-02-2023 14:09:59 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:09:59.328+07:00 - Action traced with screenshot screenshot1677395399325.png
+26-02-2023 14:09:59 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:09:59.330+07:00 - trace with screenshot prepared in 410ms
+26-02-2023 14:09:59 [INFO ] (ControlledObject:187) - finding controlled object By.name: email
+26-02-2023 14:09:59 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:09:59.336+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395399325.png
+26-02-2023 14:09:59 [INFO ] (ControlledObject:192) - By.name: email was found in 37ms
+26-02-2023 14:09:59 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:09:59.566+07:00 - sending keys paulbedoucha@gmail.com
+26-02-2023 14:09:59 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:09:59.566+07:00 - number of typing actions = 1
+26-02-2023 14:09:59 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 14:09:59 [INFO ] (ControlledObject:192) - By.name: password was found in 56ms
+26-02-2023 14:09:59 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 14:09:59 [INFO ] (ControlledObject:192) - By.name: password was found in 37ms
+26-02-2023 14:09:59 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:09:59.682+07:00 - number of click actions = 3
+26-02-2023 14:09:59 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:09:59.709+07:00 - Console log start.
+26-02-2023 14:09:59 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:09:59.709+07:00 - Console log end.
+26-02-2023 14:10:00 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:00.070+07:00 - Saving screenshot async target\screenshots\screenshot1677395400069.png
+26-02-2023 14:10:00 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:00.070+07:00 - Action traced with screenshot screenshot1677395400069.png
+26-02-2023 14:10:00 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:00.071+07:00 - trace with screenshot prepared in 383ms
+26-02-2023 14:10:00 [INFO ] (ControlledObject:187) - finding controlled object By.name: password
+26-02-2023 14:10:00 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T14:10:00.075+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395400069.png
+26-02-2023 14:10:00 [INFO ] (ControlledObject:192) - By.name: password was found in 56ms
+26-02-2023 14:10:00 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:00.214+07:00 - sending keys test
+26-02-2023 14:10:00 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:10:00.214+07:00 - number of typing actions = 2
+26-02-2023 14:10:00 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 14:10:00 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 54ms
+26-02-2023 14:10:00 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 14:10:00 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 44ms
+26-02-2023 14:10:00 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:10:00.332+07:00 - number of click actions = 4
+26-02-2023 14:10:00 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:10:00.345+07:00 - Console log start.
+26-02-2023 14:10:00 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:10:00.346+07:00 - Console log end.
+26-02-2023 14:10:00 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:00.716+07:00 - Saving screenshot async target\screenshots\screenshot1677395400716.png
+26-02-2023 14:10:00 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:00.716+07:00 - Action traced with screenshot screenshot1677395400716.png
+26-02-2023 14:10:00 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:00.717+07:00 - trace with screenshot prepared in 377ms
+26-02-2023 14:10:00 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //span[text()='Se Connecter']
+26-02-2023 14:10:00 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:10:00.717+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395400716.png
+26-02-2023 14:10:00 [INFO ] (ControlledObject:192) - By.xpath: //span[text()='Se Connecter'] was found in 44ms
+26-02-2023 14:10:00 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:10:00.815+07:00 - number of click actions = 5
+26-02-2023 14:10:00 [INFO ] (SimpliciaReusableActions:76) - Logged in as paulbedoucha@gmail.com
+26-02-2023 14:10:03 [INFO ] (HomePage:74) - By.xpath: //h5[text()='Accueil'] was found in 1311ms
+26-02-2023 14:10:03 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 2000ms
+26-02-2023 14:10:05 [INFO ] (SeleniumTestAsSimpliciaUser:330) - *** Step 2 Action: Navigate to Mes DATs ***
+26-02-2023 14:10:07 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:10:12 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:10:12 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 14:10:12 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:12 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 35ms
+26-02-2023 14:10:12 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:12 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 44ms
+26-02-2023 14:10:12 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:10:12.720+07:00 - number of click actions = 6
+26-02-2023 14:10:12 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:10:12.751+07:00 - Console log start.
+26-02-2023 14:10:12 [INFO ] (CommonUtil:54) - [2023-02-26T14:10:05+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 14:10:12 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:10:12.751+07:00 - Console log end.
+26-02-2023 14:10:12 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:12.998+07:00 - Saving screenshot async target\screenshots\screenshot1677395412998.png
+26-02-2023 14:10:12 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:12.998+07:00 - Action traced with screenshot screenshot1677395412998.png
+26-02-2023 14:10:12 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:12.999+07:00 - trace with screenshot prepared in 267ms
+26-02-2023 14:10:12 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:12 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T14:10:12.999+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395412998.png
+26-02-2023 14:10:13 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 59ms
+26-02-2023 14:10:13 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:13.150+07:00 - sending keys a
+26-02-2023 14:10:13 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:10:13.150+07:00 - number of typing actions = 3
+26-02-2023 14:10:13 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:10:13.167+07:00 - Console log start.
+26-02-2023 14:10:13 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:10:13.167+07:00 - Console log end.
+26-02-2023 14:10:13 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:13.434+07:00 - Saving screenshot async target\screenshots\screenshot1677395413434.png
+26-02-2023 14:10:13 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:13.434+07:00 - Action traced with screenshot screenshot1677395413434.png
+26-02-2023 14:10:13 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:13.435+07:00 - trace with screenshot prepared in 284ms
+26-02-2023 14:10:13 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:13 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:10:13.435+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395413434.png
+26-02-2023 14:10:13 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 40ms
+26-02-2023 14:10:13 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:13.680+07:00 - sending keys 189049205107000
+26-02-2023 14:10:13 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:10:13.680+07:00 - number of typing actions = 4
+26-02-2023 14:10:15 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:15.832+07:00 - By.xpath: .//th//span//mark[contains(text(),'189049205107000')] was found in 16ms
+26-02-2023 14:10:15 [INFO ] (DATMainPage:395) - Dat found: 189049205107000
+26-02-2023 14:10:18 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:10:23 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:10:28 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:10:28 [INFO ] (DATMainPage:380) - Checking if DAT is found on table: 189049205107000
+26-02-2023 14:10:28 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:28 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 33ms
+26-02-2023 14:10:28 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:28 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 44ms
+26-02-2023 14:10:28 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:10:28.886+07:00 - number of click actions = 7
+26-02-2023 14:10:28 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:10:28.903+07:00 - Console log start.
+26-02-2023 14:10:28 [INFO ] (CommonUtil:54) - [2023-02-26T14:10:16+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 14:10:28 [INFO ] (CommonUtil:54) - [2023-02-26T14:10:23+0700] [WARNING] https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js 0:23581 "Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01/01/2019, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:24015)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44378\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44429\n    at yt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:44741)\n    at https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45015\n    at qt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45077)\n    at wt (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:45109)\n    at r (https://qa2.simplicia.co:7443/static/js/2.8ace610d.chunk.js:1:20929)\n    at 1820 (https://qa2.simplicia.co:7443/static/js/main.6e28e2f8.chunk.js:1:832158)\n    at s (https://qa2.simplicia.co:7443/dat/all:14:906)"
+26-02-2023 14:10:28 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:10:28.906+07:00 - Console log end.
+26-02-2023 14:10:29 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:29.176+07:00 - Saving screenshot async target\screenshots\screenshot1677395429176.png
+26-02-2023 14:10:29 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:29.177+07:00 - Action traced with screenshot screenshot1677395429176.png
+26-02-2023 14:10:29 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:29.178+07:00 - trace with screenshot prepared in 281ms
+26-02-2023 14:10:29 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:29 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T14:10:29.178+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395429176.png
+26-02-2023 14:10:29 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 62ms
+26-02-2023 14:10:29 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:29.297+07:00 - sending keys a
+26-02-2023 14:10:29 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:10:29.297+07:00 - number of typing actions = 5
+26-02-2023 14:10:29 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:10:29.305+07:00 - Console log start.
+26-02-2023 14:10:29 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:10:29.305+07:00 - Console log end.
+26-02-2023 14:10:29 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:29.534+07:00 - Saving screenshot async target\screenshots\screenshot1677395429534.png
+26-02-2023 14:10:29 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:29.534+07:00 - Action traced with screenshot screenshot1677395429534.png
+26-02-2023 14:10:29 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:29.534+07:00 - trace with screenshot prepared in 238ms
+26-02-2023 14:10:29 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //input[@placeholder='Rechercher']
+26-02-2023 14:10:29 [INFO ] (AsyncFileSaver:34) - 22 - 2023-02-26T14:10:29.537+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395429534.png
+26-02-2023 14:10:29 [INFO ] (ControlledObject:192) - By.xpath: //input[@placeholder='Rechercher'] was found in 45ms
+26-02-2023 14:10:29 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:29.763+07:00 - sending keys 189049205107000
+26-02-2023 14:10:29 [INFO ] (ExecutionTracer:242) - 1 - 2023-02-26T14:10:29.763+07:00 - number of typing actions = 6
+26-02-2023 14:10:31 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:31.460+07:00 - By.xpath: .//th//span//mark[contains(text(),'189049205107000')] was found in 11ms
+26-02-2023 14:10:31 [INFO ] (DATMainPage:395) - Dat found: 189049205107000
+26-02-2023 14:10:31 [INFO ] (SeleniumTestSupport:350) - *** Print the value ***
+26-02-2023 14:10:31 [INFO ] (SeleniumTestSupport:352) - *** End of scroll ***
+26-02-2023 14:10:31 [INFO ] (SeleniumTestSupport:1058) - [Retriable] retry 1
+26-02-2023 14:10:31 [INFO ] (ControlledObject:380) - 1 - 2023-02-26T14:10:31.559+07:00 - WARN: necessary waiting for 2 seconds Wait for delete button to display
+26-02-2023 14:10:33 [INFO ] (CommonUtil:52) - 1 - 2023-02-26T14:10:33.594+07:00 - Console log start.
+26-02-2023 14:10:33 [INFO ] (CommonUtil:56) - 1 - 2023-02-26T14:10:33.595+07:00 - Console log end.
+26-02-2023 14:10:33 [INFO ] (AsyncFileSaver:26) - 1 - 2023-02-26T14:10:33.846+07:00 - Saving screenshot async target\screenshots\screenshot1677395433846.png
+26-02-2023 14:10:33 [INFO ] (TracedAction:49) - 1 - 2023-02-26T14:10:33.846+07:00 - Action traced with screenshot screenshot1677395433846.png
+26-02-2023 14:10:33 [INFO ] (ExecutionTracer:343) - 1 - 2023-02-26T14:10:33.847+07:00 - trace with screenshot prepared in 272ms
+26-02-2023 14:10:33 [INFO ] (ControlledObject:187) - finding controlled object By.cssSelector: button[title='Télécharger la DAT au format ZIP']
+26-02-2023 14:10:33 [INFO ] (AsyncFileSaver:34) - 23 - 2023-02-26T14:10:33.847+07:00 - Saved screenshot async H:\Automation\Automation\simplicia-test-module\target\screenshots\screenshot1677395433846.png
+26-02-2023 14:10:33 [INFO ] (ControlledObject:192) - By.cssSelector: button[title='Télécharger la DAT au format ZIP'] was found in 58ms
+26-02-2023 14:10:34 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:10:34.016+07:00 - number of click actions = 8
+26-02-2023 14:10:34 [INFO ] (SeleniumTestSupport:1002) - sleeping for: 5000ms
+26-02-2023 14:10:39 [INFO ] (DATMainPage:577) - *** resourcePath ***H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 14:10:39 [INFO ] (SeleniumTestSupport:536) - Files in dir: H:\Automation\Automation\simplicia-test-module\target\test-classes\com\simplicia\web\dat\%5c
+26-02-2023 14:10:39 [INFO ] (SeleniumTestSupport:539) - - dat.zip
+26-02-2023 14:10:39 [INFO ] (DATMainPage:583) - ########## DAT is downloaded with name dat.zip #########
+26-02-2023 14:10:59 [INFO ] (ControlledObject:210) - 1 - 2023-02-26T14:10:59.155+07:00 - Element By.cssSelector: button[aria-label='close'] was not found in 20054ms
+26-02-2023 14:10:59 [INFO ] (SimpliciaReusableActions:97) - Logging out
+26-02-2023 14:10:59 [INFO ] (HomePage:208) - By.xpath: //span[text()='Se Déconnecter'] was found in 15ms
+26-02-2023 14:11:01 [INFO ] (HomePage:210) - Clicked on By.xpath: //span[text()='Se Déconnecter']
+26-02-2023 14:11:01 [INFO ] (SimpliciaReusableActions:119) - browser is a WebStorage, clearing session and local storage
+26-02-2023 14:11:01 [INFO ] (SimpliciaReusableActions:123) - session and local storage cleared
+26-02-2023 14:11:03 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //img[@src='assets/images/logos/simplicia_logo.png']
+26-02-2023 14:11:04 [INFO ] (ControlledObject:192) - By.xpath: //img[@src='assets/images/logos/simplicia_logo.png'] was found in 96ms
+26-02-2023 14:11:04 [INFO ] (ControlledObject:187) - finding controlled object By.xpath: //img[@src='assets/images/logos/simplicia_logo.png']
+26-02-2023 14:11:04 [INFO ] (ControlledObject:192) - By.xpath: //img[@src='assets/images/logos/simplicia_logo.png'] was found in 43ms
+26-02-2023 14:11:04 [INFO ] (ExecutionTracer:233) - 1 - 2023-02-26T14:11:04.145+07:00 - number of click actions = 9
+26-02-2023 14:11:04 [INFO ] (SimpliciaReusableActions:114) - Logged out
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:18) - Finished dat_Test_03_Export
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:18) - ################################################################
+26-02-2023 14:11:04 [INFO ] (SeleniumTestSupport:760) - Windows are CDwindow-BFEBF29BFC7004D75285A003D1F6AAC4
+26-02-2023 14:11:04 [INFO ] (SeleniumTestSupport:761) - Switching to window number 0 which is CDwindow-BFEBF29BFC7004D75285A003D1F6AAC4
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:34) - >>>> SeleniumTestAsSimpliciaUser@AfterClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:35) - logoutFlag=false
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:44) - Logging out DISABLED
+26-02-2023 14:11:04 [INFO ] (SeleniumTestAsSimpliciaUser:46) - <<<< SeleniumTestAsSimpliciaUser@AfterClass: com.simplicia.web.dat.CreateDATUIValidationTest
+26-02-2023 14:11:04 [INFO ] (TraceReporter:90) - 1 - 2023-02-26T14:11:04.291+07:00 - INFO: Number of click actions performed: 9
+26-02-2023 14:11:04 [INFO ] (TraceReporter:91) - 1 - 2023-02-26T14:11:04.291+07:00 - INFO: Number of typing actions performed: 6
+26-02-2023 14:11:04 [INFO ] (TraceReporter:92) - 1 - 2023-02-26T14:11:04.291+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 14:11:04 [INFO ] (TraceReporter:94) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Duration of this run: 1 mins
+26-02-2023 14:11:04 [INFO ] (TraceReporter:96) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Estimated virtual manual execution: 1 mins
+26-02-2023 14:11:04 [INFO ] (TraceReporter:97) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Estimated real-time execution: 4 mins
+26-02-2023 14:11:04 [INFO ] (TraceReporter:98) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Effort saved by this run: 2 mins
+26-02-2023 14:11:04 [INFO ] (TraceReporter:45) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Number of click actions performed: 9
+26-02-2023 14:11:04 [INFO ] (TraceReporter:46) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Number of typing actions performed: 6
+26-02-2023 14:11:04 [INFO ] (TraceReporter:47) - 1 - 2023-02-26T14:11:04.292+07:00 - INFO: Number of list selections performed: 0
+26-02-2023 14:11:04 [INFO ] (TraceReporter:50) - 1 - 2023-02-26T14:11:04.293+07:00 - INFO: Estimated virtual manual execution: 1 mins
+26-02-2023 14:11:04 [INFO ] (TraceReporter:51) - 1 - 2023-02-26T14:11:04.293+07:00 - INFO: Estimated real-time execution: 2 mins
+26-02-2023 14:11:04 [INFO ] (TraceReporter:53) - 1 - 2023-02-26T14:11:04.293+07:00 - INFO: Tests executed sorted by duration:
+26-02-2023 14:11:04 [INFO ] (TraceReporter:66) - 1 - 2023-02-26T14:11:04.304+07:00 - INFO:     CreateDATUIValidationTest -> 71932 ms [clicks: 9, typing: 6, selections: 0, idle: 0 ms)
+26-02-2023 14:11:04 [INFO ] (TraceReporter:71) - 1 - 2023-02-26T14:11:04.305+07:00 - INFO: maximum retrieval time: 0 secs
+26-02-2023 14:11:04 [INFO ] (TraceReporter:72) - 1 - 2023-02-26T14:11:04.305+07:00 - INFO: number of retried actions: 0
+26-02-2023 14:11:04 [INFO ] (TraceReporter:74) - 1 - 2023-02-26T14:11:04.305+07:00 - INFO: framework robustness score: 100
+26-02-2023 14:11:04 [INFO ] (TraceReporter:77) - 1 - 2023-02-26T14:11:04.305+07:00 - INFO: Consider checking usage of following elements:
+26-02-2023 14:11:04 [INFO ] (TraceReporter:217) - 1 - 2023-02-26T14:11:04.305+07:00 - CreateDATUIValidationTest was successful
+26-02-2023 14:11:04 [INFO ] (SeleniumTestSupport:234) - 1 - 2023-02-26T14:11:04.305+07:00 - 1 will be manually closed
+26-02-2023 14:11:04 [INFO ] (SeleniumTestSupport:239) - 1 - 2023-02-26T14:11:04.306+07:00 - closing browser ChromeDriver: chrome on WINDOWS (b3403b5518fd2a52e73424f0eb030611)
+26-02-2023 14:11:04 [INFO ] (SeleniumTestSupport:242) - 1 - 2023-02-26T14:11:04.498+07:00 - quiting browser ChromeDriver: chrome on WINDOWS (b3403b5518fd2a52e73424f0eb030611)
