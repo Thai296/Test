@@ -331,8 +331,8 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
             navigateToDatOption("Mes DATs", true);
 
             // create dat
-//            String sNumeroSS = createDAT(false, false, true);
-            String sNumeroSS = "189049205107000";
+            String sNumeroSS = createDAT(false, false, true);
+//            String sNumeroSS = "189049205107000";
             bDat = datMainPage.isDatPresentOnDashboard(sNumeroSS);
 
             // down load the DAT
@@ -363,7 +363,7 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
             try {
                 if (bDat) {
 
-//                    cleanDAT();
+                    cleanDAT();
 
                 } else {
 
