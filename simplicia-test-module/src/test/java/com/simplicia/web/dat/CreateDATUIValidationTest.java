@@ -321,7 +321,6 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
     @Description("create a DAT, export as zip and validate")
     public void dat_Test_03_Export() throws Exception {
         boolean bDownloaded = false;
-
         try {
 
             LOGGER.info("*** Step 1 Action: Login the simplicia page ***");
@@ -332,7 +331,7 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
 
             // create dat
             String sNumeroSS = createDAT(false, false, true);
-//            String sNumeroSS = "189049205107000";
+//            sNumeroSS = "880650005676510";
             bDat = datMainPage.isDatPresentOnDashboard(sNumeroSS);
 
             // down load the DAT
@@ -362,7 +361,6 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
 
             try {
                 if (bDat) {
-
                     cleanDAT();
 
                 } else {
@@ -374,6 +372,7 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
                 isDATClosed();
             } finally {
                 simpliciaReusableActions.logOut();
+
             }
         }
     }
@@ -788,7 +787,8 @@ public class CreateDATUIValidationTest extends SeleniumTestAsSimpliciaUser {
 
         LOGGER.info("###################### Deleting  the DAT ##############################");
         datMainPage.performHorizontalScroll();
-        retry(() -> datMainPage.DeleteDAT());
+//        retry(() -> datMainPage.DeleteDAT());
+        datMainPage.DeleteDAT();
         datMainPage.validateDeleteDAT();
     }
 

@@ -4,6 +4,7 @@ import static com.simplicia.pages.web.utils.TestData.MY_DATS_URL;
 import static org.openqa.selenium.By.xpath;
 import java.io.File;
 import java.text.MessageFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,6 +20,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.simplicia.functions.Utility;
 import com.simplicia.pages.web.SimpliciaPage;
 import com.simplicia.pages.web.utils.ZipUtils;
@@ -405,7 +407,8 @@ public class DATMainPage extends SimpliciaPage {
 		return found.get();
 
 	}
-		/**
+	
+	/**
 	 * Wait for sNumeroSSEle to be displayed
 	 * @param sNumeroSS
 	 * @return boolean
@@ -419,18 +422,21 @@ public class DATMainPage extends SimpliciaPage {
 	 * Delete the created DAT
 	 */
 	public void DeleteDAT() {
-
-		
+		ArrayList<String> tabs2 = new ArrayList<> (browser.getWindowHandles());
+		LOGGER.info("The size of window is: " + tabs2.size());
 //		retry(() -> clickDatActionButton());
 		clickDatActionButton();
-		clickHiddenElementUsingJavaScript(BTN_ACTION_DELETE_ACTION);
+		waitForElementToBeVisible("//span[text()='delete']//ancestor::button");
+		clickHiddenElementUsingJavaScript("//span[text()='delete']//ancestor::button");
 //		deleteDATButton.click();
 		// Check if confirm message is displayed
 		if (isTextPresent(datDeleteConfirm.getText())) {
 
 			// click on yes/ OUI
 			deleteConfirmOuiButton.wait("Wait for Oui button to display", 3);
-			deleteConfirmOuiButton.click();
+			waitForElementToBeVisible("//span[text()='Oui']//ancestor::button");
+			clickHiddenElementUsingJavaScript("//span[text()='Oui']//ancestor::button");
+//			deleteConfirmOuiButton.click();
 			LOGGER.info("Click Oui to delete DAT");
 
 		}
@@ -457,7 +463,8 @@ public class DATMainPage extends SimpliciaPage {
 		// Click in expand action button of DAT
 //		expandDATOptionButton.shouldBeDisplayed();
 		clickOnRadioButtonUsingJavaScript(BTN_ACTION_EXPAND);
-		deleteDATButton.wait("Wait for delete button to display", 2);
+		sleepSilently(4000);
+//		deleteDATButton.wait("Wait for delete button to display", 2);
 	}
 
 
